@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="https://splixcube.com/images/favicon%20(2).png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 border-bottom shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 border-bottom sticky-top">
         <a class="navbar-brand" href="index.html">
             <img src="assets/SPLIXCUBE-logo-black.png" alt="Logo">
         </a>
@@ -39,9 +39,9 @@
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
             </ul>
-            <span class="navbar-text right-nav-buttons">
-                <a href="signup.html" class="btn request-demo-btn btn-sm mx-1 px-4 text-white">Sign Up</a>
-                <a href="signin.html" class="btn login-btn btn-outline-secondary btn-sm mx-1 px-4">Sign In</a>
+            <span class="right-nav-buttons">
+                <a href="signin.html" class="btn btn-outline-dark btn-sm mx-1 px-4">Sign In</a>
+                <a href="signup.html" class="btn btn-outline-primary btn-sm mx-1 px-4">Sign Up</a>
             </span>
         </div>
     </nav>
@@ -69,68 +69,86 @@
     <!-- Navbar End -->
 
 
-
-
-
-    <div class="jumbotron jumbotron-fluid bg-white border-0">
-        <div class="container center-text-div">
-            <h1 class="font-weight-normal heading">Hello India, Start Investing in Mutual Funds</h1><br>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <section class="jumbotron text-center banner-home bg-white border-0 rounded-0">
+        <div class="container all-content-center">
+            <h3 class="banner-heading">Hello India, Start Investing in Mutual Funds</h3>
+            <p class="lead banner-text">Invest your weekly savings with our portfolios in your pocket.</p>
+            <p class="my-5">
+                <a href="signup.html" class="btn-banner-signin text-decoration-none">Sign Up</a>
+            </p>
         </div>
+    </section>
 
-
-        <div class="container my-4">
-            <div class="row">
-                <div class="col-sm m-2">
-                    <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer">
-                        <div class="card-body">
-                            <div class="p-2">
-                                <img class="icon-img" src="assets/contract-staffing-icon.png">
-                            </div>
-                            <h5 class="card-title mt-3">Plan 1</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-light rounded-0 shadow-hvr border m-2">View Plan</a>
+    <section class="container my-5">
+        <div class="text-center">
+            <h3>Our plans</h3><hr>
+        </div>
+        <div class="row">
+            <div class="col-sm m-2">
+                <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer border-0">
+                    <div class="card-body">
+                        <div class="p-2">
+                            <img class="icon-img" src="assets/contract-staffing-icon.png">
                         </div>
+                        <h5 class="card-title mt-3">Plan 1</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Rs. 299.00</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mx-1 px-4">View Plan</a>
                     </div>
                 </div>
-                <div class="col-sm m-2">
-                    <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer">
-                        <div class="card-body">
-                            <div class="p-2">
-                                <img class="icon-img" src="assets/contract-to-hire-icon.png">
-                            </div>
-                            <h5 class="card-title mt-3">Plan 2</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-light rounded-0 shadow-hvr border m-2">View Plan</a>
+            </div>
+            <div class="col-sm m-2">
+                <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer border-0">
+                    <div class="card-body">
+                        <div class="p-2">
+                            <img class="icon-img" src="assets/contract-to-hire-icon.png">
                         </div>
+                        <h5 class="card-title mt-3">Plan 2</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Rs. 299.00</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mx-1 px-4">View Plan</a>
                     </div>
                 </div>
-                <div class="col-sm m-2">
-                    <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer">
-                        <div class="card-body">
-                            <div class="p-2">
-                                <img class="icon-img" src="assets/consultation-services-icon.png">
-                            </div>
-                            <h5 class="card-title mt-3">Plan 3</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-light rounded-0 shadow-hvr border m-2">View Plan</a>
+            </div>
+            <div class="col-sm m-2">
+                <div class="card shadow-hvr rounded-0 w-100 text-center cursor-pointer border-0">
+                    <div class="card-body">
+                        <div class="p-2">
+                            <img class="icon-img" src="assets/consultation-services-icon.png">
                         </div>
+                        <h5 class="card-title mt-3">Plan 3</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Rs. 299.00</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm mx-1 px-4">View Plan</a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
 
-
-    <footer class="card-footer text-center bg-white border-0 py-4">
-        <small class="text-muted h6">&copy; Splixcube 2020. Design by splixcube.</small>
+    <footer class="bd-footer text-muted jumbotron bg-white border-top text-center">
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-github"></i> GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-linkedin"></i> Linkedin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-info"></i> About</a>
+                </li>
+            </ul>
+            <p class="text-dark">Designed and built by the <a href="#">Splixcube team.</a></p>
+            <p class="text-dark">&copy; Splixcube 2020. Design by splixcube.</p>
+        </div>
     </footer>
 
 
