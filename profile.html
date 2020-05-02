@@ -40,8 +40,8 @@
                 </li>
             </ul>
             <span class="right-nav-buttons">
-                <a href="signin.html" class="btn btn-outline-dark btn-sm mx-1 px-4">Sign In</a>
-                <a href="signup.html" class="btn btn-outline-primary btn-sm mx-1 px-4">Sign Up</a>
+                <a href="profile.html" class="btn btn-outline-primary btn-sm mx-1 px-4"><i class="fa fa-user"></i> My
+                    Account</a>
             </span>
         </div>
     </nav>
@@ -68,15 +68,46 @@
     <!-- End Mobile view -->
     <!-- Navbar End -->
 
-    <div class="jumbotron jumbotron-fluid bg-white border-0">
-        <div class="container card bg-white shadow-sm p-5">
-
-            <div class="container center-text-div">
-                <h3 class="font-weight-normal heading">Profile</h3>
-                </p>
+    <section class="container-fluid bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto">
+                    <div class="card shadow-sm border rounded-0 p-3 mb-3">
+                        <small>Hello,</small>
+                        <h5>username</h5>
+                    </div>
+                    <div class="card shadow-sm border rounded-0 py-3 mb-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item disabled text-muted text-uppercase" aria-disabled="true"><i
+                                    class="fa fa-user"></i> ACCOUNT SETTINGS</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Edit Profile</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Manage Address</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Bank Details</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Pan Card Details</li>
+                        </ul>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item disabled text-muted text-uppercase" aria-disabled="true"><i
+                                    class="fa fa-home"></i> Payments</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Internet Banking</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Wallet</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Credit/Debit Card</li>
+                            <li class="list-group-item list-group-item-action cursor-pointer h6">Saved Cards</li>
+                        </ul>
+                        <!-- Logout here -->
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-uppercase"><a href="#" class="text-decoration-none"><i
+                                        class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 mx-auto">
+                    <div class="card shadow-sm border rounded-0 p-3">
+                        <h5>left body</h5>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="bd-footer text-muted jumbotron bg-white border-top text-center">
         <div class="container-fluid">
