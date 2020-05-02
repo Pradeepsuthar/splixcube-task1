@@ -40,8 +40,8 @@
                 </li>
             </ul>
             <span class="right-nav-buttons">
-                <a href="signin.html" class="btn btn-outline-dark btn-sm mx-1 px-4">Sign In</a>
-                <a href="signup.html" class="btn btn-outline-primary btn-sm mx-1 px-4">Sign Up</a>
+                <a href="profile.html" class="btn btn-outline-primary btn-sm mx-1 px-4"><i class="fa fa-user"></i> My
+                    Account</a>
             </span>
         </div>
     </nav>
@@ -68,56 +68,78 @@
     <!-- End Mobile view -->
     <!-- Navbar End -->
 
-    <div class="jumbotron jumbotron-fluid bg-white border-0">
-        <div class="container">
-            <h1 class="font-weight-normal heading">Payments Methods</h1><br>
+    <section class="container-fluid bg-light py-4">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 sol-sm-12 col-md-3 col-lg-3 col-xl-3 my-2">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                            role="tab" aria-controls="v-pills-home" aria-selected="true">Internet Banking</a>
-                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                            role="tab" aria-controls="v-pills-profile" aria-selected="false">Wallet</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
-                            role="tab" aria-controls="v-pills-messages" aria-selected="false">Credit/Debit Card</a>
-                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
-                            role="tab" aria-controls="v-pills-settings" aria-selected="false">Saved Cards</a>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto">
+                    <div class="card shadow-sm border rounded-0 p-3 mb-3">
+                        <small>Hello,</small>
+                        <h5>username</h5>
+                    </div>
+                    <div class="card shadow-sm border rounded-0 py-3 mb-3 accordion" id="accordionExample">
+                        <!-- ACCOUNT SETTINGS start -->
+                        <ul class="list-group list-group-flush">
+                            <div id="headingOne">
+                                <button class="btn btn-link text-muted text-uppercase text-decoration-none"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <i class="fa fa-user px-2"></i> ACCOUNT SETTINGS <i class="fa fa-chevron-down px-2"></i>
+                                </button>
+                                <hr>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <li class="list-group-item list-group-item-action cursor-pointer h6"><a class="text-dark text-decoration-none" href="profile.html">Edit Profile</a></li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6"><a class="text-dark text-decoration-none" href="address.html">Manage Addresses</a></li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Bank Details</li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Pan Card Details
+                                </li>
+                            </div>
+                        </ul>
+                        <!-- ACCOUNT SETTINGS end -->
+
+                        <!-- Payments start -->
+                        <ul class="list-group list-group-flush">
+                            <div id="headingTwo">
+                                <button class="btn btn-link text-muted text-uppercase text-decoration-none"
+                                    type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    <i class="fa fa-money px-2"></i> Payments <i class="fa fa-chevron-down px-2"></i>
+                                </button>
+                                <hr>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Internet Banking</li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Wallet</li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Credit/Debit Card</li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Saved Cards</li>
+                                <li class="list-group-item list-group-item-action cursor-pointer h6">Payments History</li>
+                            </div>
+                        </ul>
+                        <!-- Payments end -->
+
+                        <!-- Logout here -->
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-uppercase"><a href="#" class="text-decoration-none"><i
+                                        class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 my-2">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab">
-                            <h3>Internet Banking</h3>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab">
-                            <h3>Wallet</h3>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                            aria-labelledby="v-pills-messages-tab">
-                            <h3>Credit/Debit Card</h3>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                            aria-labelledby="v-pills-settings-tab">
-                            <div class="card" style="width: 20rem;">
-                                <div class="card-body">
-                                    <img class="card-title" src="assets/SPLIXCUBE-logo-black.png" width="120px"
-                                        height="30px">
-                                    <h5 class="card-title">Splixcube</h5>
-                                    <h6 class="card-subtitle text-muted my-2">9856 2413 6423 7632</h6>
-                                    <p class="card-text my-0">
-                                        <small id="passwordHelp" class="form-text text-muted">EXPIRY DATE -
-                                            04/22</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 mx-auto">
+                    <div class="card shadow-sm border rounded-0 p-3 mb-3">
+                        <h5>Payments History</h5>
+                        <hr>
+
+                        <p class="lead text-muted">Nothing in history</p>
+
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="bd-footer text-muted jumbotron bg-white border-top text-center">
         <div class="container-fluid">

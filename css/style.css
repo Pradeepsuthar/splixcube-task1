@@ -284,6 +284,21 @@ input:focus{
   border: 1px solid #12003B;
 }
 
+textarea{
+  border: 1px solid rgb(214, 214, 214);
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+}
+textarea:hover{
+  border: 1px solid #12003B;
+  cursor: pointer;
+}
+textarea:focus{
+  outline: 0;
+  border: 1px solid #12003B;
+}
+
 /* Buttons */
 
 .btn-submit{
