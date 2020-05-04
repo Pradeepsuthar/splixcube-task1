@@ -16,7 +16,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 border-bottom sticky-top">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/SPLIXCUBE-logo-black.png" alt="Logo">
+            <h5 class="font-weight-bold">Smart Star Investment</h5>
         </a>
         <button class="navbar-toggler toggle border-0" type="button" id="menu-toggle">
             &#9776;
@@ -36,12 +36,15 @@
                     <a class="nav-link" href="#">Buy/Sell</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Risk Calculator</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
             </ul>
             <span class="right-nav-buttons">
-                <a href="profile.html" class="btn btn-outline-primary btn-sm mx-1 px-4"><i class="fa fa-user"></i> My
-                    Account</a>
+                <a href="signin.html" class="btn btn-custom-primary btn-sm mx-1 px-4">Sign In</a>
+                <a href="signup.html" class="btn btn-outline-custom-primary btn-sm mx-1 px-4">Sign Up</a>
             </span>
         </div>
     </nav>
@@ -59,6 +62,9 @@
             </li>
             <li>
                 <a href="#"><i class="fa fa-bar-chart mr-3"></i> Buy/Sell</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-bar-chart mr-3"></i> Risk Calculator</a>
             </li>
             <li>
                 <a href="about.html"><i class="fa fa-info mr-3"></i> About Us</a>
@@ -156,9 +162,9 @@
         </div>
     </section>
 
-    <footer class="bd-footer text-muted jumbotron bg-white border-top text-center">
+    <footer class="bd-footer text-muted jumbotron bg-white border-top py-1">
         <div class="container-fluid">
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-left">
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fa fa-github"></i> GitHub</a>
                 </li>
@@ -172,8 +178,24 @@
                     <a class="nav-link" href="#"><i class="fa fa-info"></i> About</a>
                 </li>
             </ul>
-            <p class="text-dark">Designed and built by the <a href="#">Splixcube team.</a></p>
-            <p class="text-dark">&copy; Splixcube 2020. Design by splixcube.</p>
+            <div class="d-flex justify-content-between">
+                <!-- <p class="text-dark">Designed and built by the <a href="#">Splixcube team.</a></p> -->
+
+                <div class="bd-example p-3">
+                    <address>
+                      <strong class="h4">Smart Star Investment</strong><br />
+                      1355 Market St, Suite 900<br />
+                      San Australia, CA 94103<br />
+                      <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>                    
+                    <p class="text-dark">&copy; 2020 Smart Star Investment.</p>
+                  </div>
+
+                  <address>
+                    <strong>Contact Us</strong><br />
+                    <a href="mailto:first.last@example.com">smart.star@example.com</a>
+                  </address>                
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
