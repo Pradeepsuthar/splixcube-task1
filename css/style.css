@@ -313,20 +313,20 @@ textarea:focus{
   color: #fff;
 }
 
-.right-nav-buttons .btn-custom-primary{
+div .btn-custom-primary{
   background-color: transparent;
   border:1px solid #12003B;
   color: #12003B;
 }
-.right-nav-buttons .btn-custom-primary:hover{
+div .btn-custom-primary:hover{
   background-color: #12003B;
   color: #fff;
 }
-.right-nav-buttons .btn-outline-custom-primary{
+div .btn-outline-custom-primary{
   background-color: #12003B;
   color: #fff;
 }
-.right-nav-buttons .btn-outline-custom-primary:hover{
+div .btn-outline-custom-primary:hover{
   background-color: transparent;
   border:1px solid #12003B;
   color: #12003B;
