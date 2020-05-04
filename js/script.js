@@ -9,7 +9,7 @@ $("#menu-toggle").click(function (e) {
 });
 
 
-
+// Carousel
 $(document).ready(function(){
     // Highlight bottom nav links
     var clickEvent = false;

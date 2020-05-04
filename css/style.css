@@ -139,17 +139,13 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #fff;
   }
-
-  /* testing */
-
-
+  
   /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
@@ -161,7 +157,6 @@ p{
   left: 50%;
   margin-left: -3px;
 }
-
 /* Container around content */
 .timeline-container {
   padding: 10px 40px;
@@ -169,7 +164,6 @@ p{
   background-color: inherit;
   width: 50%;
 }
-
 /* The circles on the timeline */
 .timeline-container::after {
   content: '';
@@ -183,17 +177,14 @@ p{
   border-radius: 50%;
   z-index: 1;
 }
-
 /* Place the container to the left */
 .timeline-text-left {
   left: 0;
 }
-
 /* Place the container to the right */
 .timeline-text-right {
   left: 50%;
 }
-
 /* Add arrows to the left container (pointing right) */
 .timeline-text-left::before {
   content: " ";
@@ -207,7 +198,6 @@ p{
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
-
 /* Add arrows to the right container (pointing left) */
 .timeline-text-right::before {
   content: " ";
@@ -221,12 +211,10 @@ p{
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
-
 /* Fix the circle for containers on the right side */
 .timeline-text-right::after {
   left: -16px;
 }
-
 /* The actual content */
 .timeline-content {
   padding: 20px 30px;
@@ -234,21 +222,18 @@ p{
   position: relative;
   border-radius: 6px;
 }
-
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
   left: 31px;
   }
-  
   /* Full-width containers */
   .timeline-container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-  
   /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
   left: 60px;
@@ -256,18 +241,15 @@ p{
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
   }
-
   /* Make sure all circles are at the same spot */
   .timeline-text-left::after, .timeline-text-right::after {
   left: 15px;
   }
-  
   /* Make all right containers behave like the left ones */
   .timeline-text-right {
   left: 0%;
   }
 }
-
 input[type=text],input[type=email],input[type=password]{
   border: 1px solid rgb(214, 214, 214);
   width: 100%;
@@ -275,7 +257,6 @@ input[type=text],input[type=email],input[type=password]{
   border-radius: 5px;
   padding: 20px;
 }
-
 input:hover{
   border: 1px solid #12003B;
   cursor: pointer;
@@ -284,7 +265,6 @@ input:focus{
   outline: 0;
   border: 1px solid #12003B;
 }
-
 textarea{
   border: 1px solid rgb(214, 214, 214);
   width: 100%;
@@ -301,7 +281,6 @@ textarea:focus{
 }
 
 /* Buttons */
-
 .btn-submit{
   border: 1px solid #12003B;
   color: #12003B;
@@ -312,7 +291,6 @@ textarea:focus{
   background-color: #12003B;
   color: #fff;
 }
-
 div .btn-custom-primary{
   background-color: transparent;
   border:1px solid #12003B;
@@ -336,17 +314,13 @@ div .btn-outline-custom-primary:hover{
 .avatar-profile{
   max-width: 100%;
   max-height: 50%;
-  
 }
 
 /* carousel */
-
 .carousel-img{
   width: 100%;
   min-height: 50vh;
 }
-
-
 .carousel {
 	margin: 30px 0;
     background: #ccc;
