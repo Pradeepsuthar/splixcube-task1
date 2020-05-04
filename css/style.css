@@ -313,9 +313,113 @@ textarea:focus{
   color: #fff;
 }
 
+.right-nav-buttons .btn-custom-primary{
+  background-color: transparent;
+  border:1px solid #12003B;
+  color: #12003B;
+}
+.right-nav-buttons .btn-custom-primary:hover{
+  background-color: #12003B;
+  color: #fff;
+}
+.right-nav-buttons .btn-outline-custom-primary{
+  background-color: #12003B;
+  color: #fff;
+}
+.right-nav-buttons .btn-outline-custom-primary:hover{
+  background-color: transparent;
+  border:1px solid #12003B;
+  color: #12003B;
+}
+
 /* Profile */
 .avatar-profile{
   max-width: 100%;
   max-height: 50%;
   
+}
+
+/* carousel */
+
+.carousel-img{
+  width: 100%;
+  min-height: 50vh;
+}
+
+
+.carousel {
+	margin: 30px 0;
+    background: #ccc;
+}
+.carousel .item {
+    text-align: center;
+	overflow: hidden;
+    height: 475px;
+}
+.carousel .item img {
+	max-width: 100%;
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+.carousel .carousel-control {
+	width: 50px;
+    height: 50px;
+    background: #000;
+    margin: auto 0;
+	opacity: 0.8;
+}
+.carousel .carousel-control:hover {
+	opacity: 0.9;
+}
+.carousel .carousel-control i {
+    font-size: 41px;
+	margin-top: 3px;
+}
+.carousel-caption h3, .carousel-caption p {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: none;
+	margin-bottom: 20px;
+}
+.carousel-caption h3 {
+  background: #fff;
+  color: #12003B;
+	padding: 12px 24px;
+	font-size: 20px;	
+	text-transform: uppercase;
+}
+.carousel-caption p {
+  background: #fff;
+  color: #12003B;
+	padding: 10px 20px;
+	font-size: 15px;
+	font-weight: 300;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.carousel-indicators li.active {
+	background: #12003B;
+	border-color: #12003B;
+}
+.carousel .nav {	
+	background: #eee;
+}
+.carousel .nav a {
+	color: #333;
+	border-radius: 0;
+	font-size: 85%;
+	padding: 10px 16px;
+	background: transparent;
+}
+.carousel .nav .nav-item.active a {
+	color: #fff;
+	background: #12003B;
+}
+.carousel .nav strong {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 110%;
+	text-transform: uppercase;
 }

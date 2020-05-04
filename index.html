@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splixcube</title>
+    <title>Smart Star Investment</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +16,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 border-bottom sticky-top">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/SPLIXCUBE-logo-black.png" alt="Logo">
+            <h5 class="font-weight-bold">Smart Star Investment</h5>
         </a>
         <button class="navbar-toggler toggle border-0" type="button" id="menu-toggle">
             &#9776;
@@ -36,12 +36,15 @@
                     <a class="nav-link" href="#">Buy/Sell</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Risk Calculator</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
             </ul>
             <span class="right-nav-buttons">
-                <a href="signin.html" class="btn btn-outline-dark btn-sm mx-1 px-4">Sign In</a>
-                <a href="signup.html" class="btn btn-primary btn-sm mx-1 px-4">Sign Up</a>
+                <a href="signin.html" class="btn btn-custom-primary btn-sm mx-1 px-4">Sign In</a>
+                <a href="signup.html" class="btn btn-outline-custom-primary btn-sm mx-1 px-4">Sign Up</a>
             </span>
         </div>
     </nav>
@@ -61,6 +64,9 @@
                 <a href="#"><i class="fa fa-bar-chart mr-3"></i> Buy/Sell</a>
             </li>
             <li>
+                <a href="#"><i class="fa fa-bar-chart mr-3"></i> Risk Calculator</a>
+            </li>
+            <li>
                 <a href="about.html"><i class="fa fa-info mr-3"></i> About Us</a>
             </li>
         </ul>
@@ -70,7 +76,7 @@
 
     <section class="jumbotron text-center banner-home bg-white border-0 rounded-0">
         <div class="container all-content-center">
-            <h3 class="banner-heading">Hello India, Start Investing in Mutual Funds</h3>
+            <h3 class="banner-heading">Hello India, Start Investing in Micro Funds</h3>
             <p class="lead banner-text">Invest your weekly savings with our portfolios in your pocket.</p>
             <p class="my-5">
                 <a href="signup.html" class="btn-banner-signin text-decoration-none">Sign Up</a>
@@ -153,18 +159,59 @@
             </div>
         </div>
     </section>
+  
+    
+    
+    <section class="jumbotron container-fluid bg-white border-0 d-none d-lg-block d-xl-block">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <img src="https://www.clsinvest.com/wp-content/uploads/2017/01/GettyImages-490918202.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h3>Secure Investment</h3><br>
+                                <p>Pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien bibendum.</p>
+                            </div>
+                        </div>	
+                        <div class="item carousel-item">
+                            <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX15566141.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h3>Availability Anytime</h3><br>							
+                                <p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam sagittis lectus condime dapibus vitae.</p>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <img src="https://www.tradersaccounting.com/wp-content/uploads/2017/05/investment-strategy.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h3>Track Your Investments</h3><br>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque tempor quis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Carousel Inner -->
+                    <ul class="nav nav-pills nav-justified">
+                        <li data-target="#myCarousel" data-slide-to="0" class="nav-item active"><a href="#" class="nav-link"><strong>Secure Investment</strong>Lorem ipsum dolor sit amet</a></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="nav-item"><a href="#" class="nav-link"><strong>Availability Anytime</strong> Nesciunt stumpown odio aliqua</a></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="nav-item"><a href="#" class="nav-link"><strong>Track Your Investments</strong> Oullam hendrerit justom leow</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="jumbotron container bg-white border-0">
         <div class="text-center">
-            <h3>Product Disclosure Statements</h3>
+            <h3>Product Disclosure Statement (PDS)</h3>
             <hr>
         </div>
         <div class="row">
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-4 p-1">
                 <a href="#" class="text-decoration-none text-dark">
                     <div class="card shadow-hvr cursor-pointer">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-cogs"></i> Special title treatment</h5>
+                            <h5 class="card-title text-capitalize"><i class="fa fa-cogs"></i> product’s key features</h5>
                             <p class="card-text my-2">With supporting text below as a natural lead-in to additional
                                 content.</p>
                             <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o"></i> Last updated 3
@@ -173,11 +220,24 @@
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-4 p-1">
                 <a href="#" class="text-decoration-none text-dark">
                     <div class="card shadow-hvr cursor-pointer">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-user"></i> Special title treatment</h5>
+                            <h5 class="card-title text-capitalize"><i class="fa fa-user"></i> fees, commissions, benefits</h5>
+                            <p class="card-text my-2">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o"></i> Last updated 3
+                                    mins ago</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 p-1">
+                <a href="#" class="text-decoration-none text-dark">
+                    <div class="card shadow-hvr cursor-pointer">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize"><i class="fa fa-user"></i> risks and complaints handling</h5>
                             <p class="card-text my-2">With supporting text below as a natural lead-in to additional
                                 content.</p>
                             <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o"></i> Last updated 3
@@ -189,9 +249,9 @@
         </div>
     </section>
 
-    <footer class="bd-footer text-muted jumbotron bg-white border-top text-center">
+    <footer class="bd-footer text-muted jumbotron bg-white border-top py-1">
         <div class="container-fluid">
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-left">
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fa fa-github"></i> GitHub</a>
                 </li>
@@ -205,8 +265,26 @@
                     <a class="nav-link" href="#"><i class="fa fa-info"></i> About</a>
                 </li>
             </ul>
-            <p class="text-dark">Designed and built by the <a href="#">Splixcube team.</a></p>
-            <p class="text-dark">&copy; Splixcube 2020. Design by splixcube.</p>
+            <div class="d-flex justify-content-between">
+                <!-- <p class="text-dark">Designed and built by the <a href="#">Splixcube team.</a></p> -->
+
+                <div class="bd-example p-3">
+                    <address>
+                      <strong class="h4">Smart Star Investment</strong><br />
+                      1355 Market St, Suite 900<br />
+                      San Australia, CA 94103<br />
+                      <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>                    
+                    <p class="text-dark">&copy; 2020 Smart Star Investment.</p>
+                  </div>
+
+                  <address>
+                    <strong>Contact Us</strong><br />
+                    <a href="mailto:first.last@example.com">smart.star@example.com</a>
+                  </address>
+
+                
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
